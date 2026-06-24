@@ -26,3 +26,7 @@ manejan, una selección de proyectos destacados y una sección de contacto.
 - **normalize.css** para unificar los estilos base entre navegadores.
 - Tipografías **Open Sans** y **Archivo Black**, con fuentes del sistema como
   alternativa.
+
+## Enlace a GitHub Pages
+
+https://davidprietooficial-ux.github.io/web_project_portfolio_es-/

@@ -1,22 +1,59 @@
 /* Bloque: footer (contacto) */
 
 .footer {
+  margin-bottom: 100px;
+  padding: 0%;
 }
 
 .footer__title {
+  font-family: "Archivo Black";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0%;
 }
 
 .footer__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #6d6dff;
+  margin-bottom: 30px;
+  padding: 0%;
 }
 
 .footer__links {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
 }
 
 .footer__links-item {
+  list-style: none;
 }
 
 .footer__link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #6d6dff;
+  transition: opacity 0.2s ease;
+}
+
+.footer__link:hover {
+  opacity: 0.5; /* mismo hover que el resto: atenúa el correo y los iconos sociales */
 }
 
 .footer__icon {
+  width: 24px;
 }

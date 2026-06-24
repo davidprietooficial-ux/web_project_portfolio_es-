@@ -1,16 +1,31 @@
 /* Bloque: skills (habilidades y herramientas) */
 
 .skills {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 100px;
 }
 
 .skills__title {
+  font-family: "Archivo Black";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+  margin-bottom: 50px;
 }
 
 .skills__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .skills__item {
 }
 
 .skills__icon {
+  height: 50px;
 }

@@ -1,28 +1,84 @@
 /* Bloque: header (presentación / perfil) */
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  padding: 0%;
 }
 
 .header__container {
+  margin-left: 120px;
+  margin-top: 0%;
+  padding: 0%;
 }
 
 .header__title {
+  font-family: "Archivo Black";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 78px;
+  margin-top: 89px;
+  margin-bottom: 15px;
+  padding: 0%;
 }
 
 .header__subtitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .header__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  width: 750px;
+  margin-bottom: 30px;
 }
 
 .header__links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
 }
 
 .header__links-item {
 }
 
 .header__link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  padding-bottom: 10px;
+
+  background-image: linear-gradient(90deg, #4c1a97 0%, #6d6dff 100%);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 5px;
+  transition: opacity 0.2s ease;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__image {
+  height: 500px;
+  margin-top: 40px;
+  margin-right: 120px;
 }
