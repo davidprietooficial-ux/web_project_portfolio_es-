@@ -1,0 +1,8 @@
+/* Punto de entrada de estilos — importa vendor + bloques BEM */
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/header.css);
+@import url(../blocks/content.css);
+@import url(../blocks/skills.css);
+@import url(../blocks/projects.css);
+@import url(../blocks/footer.css);
