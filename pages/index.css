@@ -21,4 +21,22 @@ body {
       rgba(109, 109, 255, 0) 70%
     );
   background-repeat: no-repeat;
+  background-origin: border-box;
+  font-family: "Open Sans", "Arial", serif;
+  font-family: "Archivo Black", "Arial Black", sans-serif;
+  padding: 40px 120px 100px;
+}
+
+/* Tablet (768px – 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    padding: 40px 40px 100px;
+  }
+}
+
+/* Móvil (≤ 767px) */
+@media (max-width: 767px) {
+  body {
+    padding: 20px 20px 100px;
+  }
 }

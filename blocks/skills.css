@@ -1,17 +1,15 @@
 /* Bloque: skills (habilidades y herramientas) */
 
 .skills {
-  margin-left: 120px;
-  margin-right: 120px;
   margin-bottom: 100px;
 }
 
 .skills__title {
-  font-family: "Archivo Black";
+  font-family: "Archivo Black", "Arial Black", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 44px;
+  line-height: 1.26;
   margin-bottom: 50px;
 }
 
@@ -28,4 +26,38 @@
 
 .skills__icon {
   height: 50px;
+}
+
+/* Tablet (768px – 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .skills {
+    margin-bottom: 83px;
+  }
+  .skills__title {
+    margin-top: 0px;
+    font-size: 40px;
+  }
+}
+
+/* Móvil (≤ 767px) */
+@media (max-width: 767px) {
+  .skills {
+    margin-bottom: 60px;
+  }
+
+  .skills__title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  .skills__list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 35px;
+    row-gap: 35px;
+    margin: 0%;
+  }
+  .skills__icon {
+    height: 35px;
+  }
 }
