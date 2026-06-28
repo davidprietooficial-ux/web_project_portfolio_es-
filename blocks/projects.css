@@ -127,14 +127,14 @@
     margin-bottom: 80px;
   }
 
-  .projects-title {
+  .projects__title {
     margin-bottom: 30px;
     margin-top: 0px;
     padding: 0%;
     font-size: 40px;
   }
 
-  .projects_name {
+  .projects__name {
     font-size: 24px;
   }
 

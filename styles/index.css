@@ -5,6 +5,45 @@
 @import url(../blocks/projects.css);
 @import url(../blocks/footer.css);
 
+/* Conexión con tipografía */
+@font-face {
+  font-family: "Archivo Black";
+  src:
+    url("../vendor/fonts/ArchivoBlack-Regular.woff2") format("woff2"),
+    url("../vendor/fonts/ArchivoBlack-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+    url("../vendor/fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../vendor/fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+    url("../vendor/fonts/OpenSans-Semibold.woff2") format("woff2"),
+    url("../vendor/fonts/OpenSans-Semibold.woff") format("woff");
+  font-weight: semibold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+    url("../vendor/fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../vendor/fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Estilos para el cuerpo de la página */
+
 body {
   color: #ffffff;
   background-color: #111;
